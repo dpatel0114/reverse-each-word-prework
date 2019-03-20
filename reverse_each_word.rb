@@ -1,11 +1,4 @@
-def reverse_each_word(sentence1)
- 
-  sentence1.reverse do |string|
-  
-    return sentence1
-    
-  end
-end
+
 
 # reverse_each_word
 
@@ -16,5 +9,5 @@ def reverse_each_word(sentence1)
     array[i].reverse 
     new_array.push(array[i].reverse)
   end
-  
+  new_array.join(" ")
 end
